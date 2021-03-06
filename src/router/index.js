@@ -7,7 +7,6 @@ import CurrentAffairs from '@/views/CurrentAffairs/CurrentAffairs.vue'
 import sub_category_common_page from '@/Views/CurrentAffairs/current_affairs_common_page/current_affairs_common_page.vue'
 import Finance from '@/Views/Finance/Finance.vue'
 
-import Subscribe from '@/Views/Subscribe/Subscribe.vue'
 import Life from '@/Views/Life/Life.vue'
 import Thoughts from '@/Views/Thoughts/Thoughts.vue'
 import ModifyInfo from '@/Views/ModifyInfo/ModifyInfo.vue'
@@ -83,10 +82,6 @@ const routes = [
   {
     path:'/detail',
     component:Detail
-  },
-  {
-    path:"/subscribe",
-    component:Subscribe
   },
   {
     path:"/modifyinfo",

@@ -16,7 +16,15 @@ import TouTiao from "@/components/TouTiao/TouTiao.vue";
 import List from "@/components/List/List.vue";
 
 export default {
+  data(){
+    return{
+      
+    }
+  },
   components: { SideBar ,TouTiao,List},
+  methods:{
+    
+  }
 }
 </script>
 
